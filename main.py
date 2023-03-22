@@ -21,6 +21,7 @@ if "past" not in st.session_state:
 
 def get_text():
     input_text = st.text_input("You: ", "Hello, how are you?", key="topic")
+    print(f"DEBUG: input_text: {input_text}\nTYPE: {type(input_text)}")
     return input_text
 
 
