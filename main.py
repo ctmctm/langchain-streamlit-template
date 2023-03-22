@@ -29,8 +29,8 @@ user_input = get_text()
 if user_input:
     input_data = {
     'topic': user_input
-}
-
+    }
+    output = chain.run (input=input_ data)
 
 
     st.session_state.past.append(user_input)
