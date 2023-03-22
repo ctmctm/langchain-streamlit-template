@@ -4,14 +4,6 @@ from streamlit_chat import message
 
 from langchain.chains import ConversationChain
 from langchain.llms import OpenAI
-
-
-""" def load_chain():
-    """Logic for loading the chain you want to use should go here."""
-    llm = OpenAI(temperature=0)
-    chain = ConversationChain(llm=llm)
-""" return chain
-
 from langchain.chains import load_chain
 
 chain = load_chain("lc://chains/hello-world/chain.json")
